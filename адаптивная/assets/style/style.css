@@ -1,0 +1,216 @@
+html{
+    font-size: 20px;
+}
+h1{background-color: rgb(212, 212, 212);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em ;
+    font-weight: 600;
+    color: black;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    position: static;
+
+}
+main{display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 300px;
+
+}
+body{
+    width: 100%;
+}
+.class{
+    width: 100%;
+    margin: 0;
+}
+
+.name{
+    padding-top: 25px;
+    width: 100%;
+    text-align: center;
+}
+.section{
+    background-color: rgba(251, 236, 205, 0.999);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em ;
+    font-weight: 600;
+    color: black;
+    display: grid;
+    justify-content: center;
+    width: 100%;
+}
+
+.block_conteiner{
+    display: grid;
+    align-items: center;
+    grid-template-columns:  20vw 20vw;
+    height: 50px;
+    gap: 20px;
+    text-align: center;
+}
+#block1{
+    background-color: rgba(255, 212, 126, 0.999);
+padding: 20px;
+}
+#block2{
+    background-color: rgba(255, 212, 126, 0.999);
+    padding: 20px;
+}
+#block3{
+    background-color: rgba(255, 212, 126, 0.999);
+    padding: 20px;
+}
+.block_big{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+
+}
+
+.class1{
+    background-color: rgba(178, 224, 193, 0.999);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em ;
+    font-weight: 600;
+    color: black;
+    display: grid;
+    justify-content: center;
+    padding-top: 25px;
+    width: 100%;
+    margin: 0;
+}
+.conteiner{
+    background-color: rgb(212, 212, 212);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em ;
+    font-weight: 600;
+    color: black;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-left: 50px;
+    padding: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+#footer1{background-color: rgb(245, 245, 245);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#footer2{background-color: rgb(245, 245, 245);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#footer3{background-color: rgb(245, 245, 245);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#footer4{background-color: rgb(245, 245, 245);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media screen and (max-width: 768px){
+    html{
+        font-size: 0.9em;
+    }
+    .conteiner{
+        gap: 14px;
+    }
+    #footer1{
+        height: 30px;
+        text-align: center;
+    }
+    #footer2{
+        height: 30px;
+        text-align: center;
+    }
+    #footer3{
+        height: 30px;
+        text-align: center;
+    }
+    #footer4{
+        height: 30px;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 761px) and (max-width: 1048px){
+    .conteiner{
+        gap: 15px;
+    }
+    
+}
+@media screen and (min-width: 480px) and (max-width: 500px ) {
+    #block1{
+        height: 28px;
+    }
+    #block2{
+        height: 28px;
+    }
+}
+@media screen and (max-width: 375px) {
+    body{font-size: 0.7em;
+    }
+    h1{
+        padding: 5px;
+    }
+    main{
+        height: 120px;
+    }
+    .name{
+        padding-top: 5px;
+        height: 3px;
+    }
+    .block_conteiner{
+        height: 10px;
+    }
+    #block1{
+    padding: 2px;
+    }
+    #block2{
+        padding: 2px;
+    }
+    #block3{
+        padding: 2px;
+    }
+    .class1{
+        padding-top: 5px;
+        text-align: center;
+    }
+    .conteiner{
+        height: 24px;
+        grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
+        padding: 10px;
+        padding-bottom: 30px;
+        gap: 4px;
+    }
+    #footer1{
+        padding: 5px;
+        height: 30px;
+
+    }
+    #footer2{
+        padding: 5px;
+        height: 30px;
+    }
+    #footer3{
+        padding: 5px;
+        height: 30px;
+    }
+    #footer4{
+        padding: 5px;
+        height: 30px;
+    }
+    
+}

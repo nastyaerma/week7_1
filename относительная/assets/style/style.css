@@ -1,0 +1,110 @@
+h1{background-color: rgb(212, 212, 212);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px ;
+    font-weight: 600;
+    color: black;
+    margin: 0;
+    padding: 20px;
+    position: static;
+    border-left: 50px;
+    text-align: center;
+}
+main{display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 300px;
+}
+.name{
+    padding-top: 25px;
+    width: 980px;
+    text-align: center;
+}
+.section{
+    background-color: rgba(251, 236, 205, 0.999);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px ;
+    font-weight: 600;
+    color: black;
+    display: grid;
+    justify-content: center;
+}
+
+.block_conteiner{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 480px);
+    height: 50px;
+    gap: 20px;
+    text-align: center;
+}
+#block1{
+    background-color: rgba(255, 212, 126, 0.999);
+padding: 20px;
+}
+#block2{
+    background-color: rgba(255, 212, 126, 0.999);
+    padding: 20px;
+}
+#block3{
+    background-color: rgba(255, 212, 126, 0.999);
+    padding: 20px;
+}
+.block_big{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+
+}
+
+.class1{
+    background-color: rgba(178, 224, 193, 0.999);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px ;
+    font-weight: 600;
+    color: black;
+    display: grid;
+    justify-content: center;
+    padding-top: 25px;
+}
+.conteiner{
+    background-color: rgb(212, 212, 212);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px ;
+    font-weight: 600;
+    color: black;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-left: 50px;
+    padding: 20px;
+}
+#footer1{background-color: rgb(245, 245, 245);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#footer2{background-color: rgb(245, 245, 245);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#footer3{background-color: rgb(245, 245, 245);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#footer4{background-color: rgb(245, 245, 245);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media screen {
+    
+}
